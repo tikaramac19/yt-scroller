@@ -8,10 +8,5 @@ chrome.tabs.onActivated.addListener(async () => {
 
   if (!tab?.url) return;
 
-  chrome.scripting.executeScript({
-    target: tab.tabId,
-    files: ["./src/content_script.js"],
-  });
-
-  console.log({ tab }, "from service workder");
+  // console.log({ tab }, "from service workder");
 });
