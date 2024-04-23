@@ -24,5 +24,11 @@
     "scripting",
     "tabs"
   ],
+  "web_accessible_resources": [
+    {
+      "resources": ["/src/img/rato.png", "/src/img/nilo.png"],
+      "matches": ["<all_urls>"]
+    }
+  ],
   "host_permissions": ["https://*/*"]
 }
