@@ -5,8 +5,7 @@
   "icons": {},
 
   "background": {
-    "service_worker": "./src/service_worker.js",
-    "type": "module"
+    "service_worker": "./src/service_worker.js"
   },
   "action": {
     "default_popup": "index.html"
@@ -14,8 +13,7 @@
   "content_scripts": [
     {
       "match_about_blank": true,
-      "matches": ["https://www.youtube.com/*"],
-      "run_at": "document_start",
+      "matches": ["<all_urls>"],
       "js": ["./src/content_script.js"]
     }
   ],
