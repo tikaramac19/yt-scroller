@@ -1,0 +1,31 @@
+* {
+  width: 300px;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: #74ebd5;
+  background-image: linear-gradient(90deg, #74ebd5 0%, #9face6 100%);
+}
+
+.infiniteContainer {
+  height: 200px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.infiniteHeader {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.infiniteContainer .header {
+  font-size: 16px;
+}
+
+.infiniteContainer .switch {
+  font-size: 16px;
+  cursor: pointer;
+  color: crimson;
+}
